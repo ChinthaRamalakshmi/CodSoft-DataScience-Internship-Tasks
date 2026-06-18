@@ -15,8 +15,12 @@ The model classifies transactions as:
 
 ## 📁 Dataset Description
 
+Dataset is not included in this repository due to its large size.
+
+Please download the Credit Card Fraud Detection dataset from Kaggle:
 🔗 Dataset Source:
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+After downloading, place creditcard.csv in the project folder and run the script.
 
 The dataset contains credit card transaction data with the following features:
 
