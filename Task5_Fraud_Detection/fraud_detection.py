@@ -10,6 +10,13 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+try:
+    df = pd.read_csv("creditcard.csv")
+except FileNotFoundError:
+    print("Dataset not found.")
+    print("Please download 'creditcard.csv' from the Kaggle dataset link provided in README.md and place it in this folder.")
+    exit()
+
 # Load dataset
 df = pd.read_csv("creditcard.csv")
 
